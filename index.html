@@ -25,11 +25,21 @@
     {
         "owner": {
             "prototype": "montage/ui/loader.reel"
+        },
+        "tempConverter": {
+            "prototype": "ui/converter.reel",
+            "properties": {
+                "element": {"#": "tempConverter"}
+            }
         }
     }
     </script>
 </head>
 <body>
     <span class="loading"></span>
+    <div data-montage-id="montageVersion">
+        <h1>Temperature Converter</h1>
+        <div data-montage-id="tempConverter"></div>
+    </div>
 </body>
 </html>
