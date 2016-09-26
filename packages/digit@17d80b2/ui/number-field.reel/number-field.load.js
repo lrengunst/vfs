@@ -1,1 +1,1 @@
-montageDefine("17d80b2","ui/number-field.reel/number-field",{dependencies:["montage/ui/base/abstract-number-field"],factory:function(e,t){var n=e("montage/ui/base/abstract-number-field").AbstractNumberField;t.NumberField=n.specialize({constructor:{value:function(){this.super()}}})}});
+montageDefine("17d80b2","ui/number-field.reel/number-field",{dependencies:["montage/ui/base/abstract-number-field"],factory:function(e,t){var i=e("montage/ui/base/abstract-number-field").AbstractNumberField;t.NumberField=i.specialize({constructor:{value:function(){this.super()}}})}});

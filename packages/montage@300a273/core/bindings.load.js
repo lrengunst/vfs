@@ -1,1 +1,1 @@
-montageDefine("300a273","core/bindings",{dependencies:["./deprecate","frb"],factory:function(e,t){e("./deprecate").deprecationWarning("montage/core/bindings","montage/core/core"),t.Bindings=e("frb")}});
+montageDefine("300a273","core/bindings",{dependencies:["./deprecate","frb"],factory:function(t,e){t("./deprecate").deprecationWarning("montage/core/bindings","montage/core/core"),e.Bindings=t("frb")}});

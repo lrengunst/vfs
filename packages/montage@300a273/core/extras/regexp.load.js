@@ -1,1 +1,1 @@
-montageDefine("300a273","core/extras/regexp",{dependencies:[],factory:function(){if(!RegExp.isRegExp){var e=Object.prototype.toString;Object.defineProperty(RegExp,"isRegExp",{value:function(t){return"[object RegExp]"===e.call(t)},writable:!0,configurable:!0})}}});
+montageDefine("300a273","core/extras/regexp",{dependencies:[],factory:function(){if(!RegExp.isRegExp){var t=Object.prototype.toString;Object.defineProperty(RegExp,"isRegExp",{value:function(e){return"[object RegExp]"===t.call(e)},writable:!0,configurable:!0})}}});

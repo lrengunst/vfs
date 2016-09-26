@@ -1,1 +1,1 @@
-montageDefine("300a273","core/converter/invert-converter",{dependencies:["../core","./converter"],factory:function(e,t){e("../core").Montage;var n=e("./converter").Converter;t.InvertConverter=n.specialize({convert:{value:function(e){return!e}},revert:{value:function(e){return!e}}})}});
+montageDefine("300a273","core/converter/invert-converter",{dependencies:["../core","./converter"],factory:function(t,e){t("../core").Montage;var a=t("./converter").Converter;e.InvertConverter=a.specialize({convert:{value:function(t){return!t}},revert:{value:function(t){return!t}}})}});

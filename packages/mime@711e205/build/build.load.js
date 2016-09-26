@@ -1,1 +1,1 @@
-montageDefine("711e205","build/build",{dependencies:["mime-db"],factory:function(e){var t=e("mime-db"),n={};Object.keys(t).forEach(function(e){var r=t[e].extensions;r&&(n[e]=r)}),console.log(JSON.stringify(n))}});
+montageDefine("711e205","build/build",{dependencies:["mime-db"],factory:function(e){var t=e("mime-db"),n={};Object.keys(t).forEach(function(e){var i=t[e].extensions;i&&(n[e]=i)}),console.log(JSON.stringify(n))}});

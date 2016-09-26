@@ -1,1 +1,1 @@
-montageDefine("711e205","cli",{dependencies:["./mime.js"],factory:function(e){var t=e("./mime.js"),n=process.argv[2],r=t.lookup(n);process.stdout.write(r+"\n")}});
+montageDefine("711e205","cli",{dependencies:["./mime.js"],factory:function(e){var t=e("./mime.js"),n=process.argv[2],i=t.lookup(n);process.stdout.write(i+"\n")}});

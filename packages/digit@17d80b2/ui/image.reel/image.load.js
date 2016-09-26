@@ -1,1 +1,1 @@
-montageDefine("17d80b2","ui/image.reel/image",{dependencies:["montage/ui/base/abstract-image"],factory:function(e,t){var n=e("montage/ui/base/abstract-image").AbstractImage;t.Image=n.specialize({})}});
+montageDefine("17d80b2","ui/image.reel/image",{dependencies:["montage/ui/base/abstract-image"],factory:function(e,t){var i=e("montage/ui/base/abstract-image").AbstractImage;t.Image=i.specialize({})}});
