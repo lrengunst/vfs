@@ -9,12 +9,45 @@
             "properties": {
                 "element": {"#": "owner"}
             }
+        },
+
+        "celsiusNumberfield": {
+            "prototype": "digit/ui/number-field.reel",
+            "properties": {
+                "element": {"#": "celsius"}
+             }
+        },
+
+        "fahrenheitNumberfield": {
+            "prototype": "digit/ui/number-field.reel",
+            "properties": {
+                "element": {"#": "fahrenheit"}
+            }
+        },
+
+        "thermometer": {
+            "prototype": "digit/ui/slider.reel",
+            "properties": {
+                "element": {"#": "thermometer"},
+                "axis": "vertical"
+            }
         }
     }
     </script>
 </head>
 <body>
     <div data-montage-id="owner" class="Converter">
+        <fieldset>
+            <div>&deg;C
+                <input type="number"/>
+            </div>
+            <div>&deg;F
+                <input type="number"/>
+            </div>
+        </fieldset>
+        <fieldset>
+            <input type="range"/>
+        </fieldset>
     </div>
 </body>
 </html>
