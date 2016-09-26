@@ -9,12 +9,27 @@
             "properties": {
                 "element": {"#": "owner"}
             }
+        },
+        "button": {
+            "prototype": "montage/ui/button.reel",
+            "properties": {
+                "element": {"#": "button"},
+                "contenteditable": "true",
+                "dir": "ltr",
+                "draggable": "true",
+                "enabled": true,
+                "formenctype": "application/x-www-form-urlencoded",
+                "formmethod": "get",
+                "label": "Button",
+                "type": "button"
+            }
         }
     }
     </script>
 </head>
 <body>
     <div data-montage-id="owner" class="Test">
+        <button data-montage-id="button"></button>
     </div>
 </body>
 </html>
