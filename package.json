@@ -1,5 +1,5 @@
 {
-    "name": "vfs",
+    "name": "bmk",
     "version": "0.1.0",
     "dependencies": {
         "montage": "~0.15.0",
@@ -12,5 +12,12 @@
         "run-tests.html",
         "test"
     ],
-    "bundle": [ "ui/main.reel" ]
+    "bundle": [
+        "ui/main.reel"
+    ],
+    "author": {
+        "name": "Hồ Duy Quốc Bảo",
+        "email": "hoduyquocbao@gmail.com",
+        "url": ""
+    }
 }
