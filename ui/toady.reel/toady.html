@@ -5,12 +5,32 @@
     <link rel="stylesheet" type="text/css" href="toady.css">
     <script type="text/montage-serialization">
     {
-        "owner": {
-            "properties": {
-                "element": {"#": "owner"}
-            }
+    "number": {
+        "prototype": "digit/ui/number-field.reel",
+        "properties": {
+            "element": {"#": "number"},
+            "value": 50
+        }
+    },
+    "slider1": {
+        "prototype": "digit/ui/slider.reel",
+        "properties": {
+            "element": {"#": "slider1"}
+        },
+        "bindings": {
+            "value": {"<->": "@number.value"}
+        }
+    },
+    "slider2": {
+        "prototype": "digit/ui/slider.reel",
+        "properties": {
+            "element": {"#": "slider2"}
+        },
+        "bindings": {
+            "value": {"<->": "@number.value"}
         }
     }
+}
     </script>
 </head>
 <body>
